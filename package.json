@@ -1,0 +1,43 @@
+{
+  "name": "koa-switch-vhost",
+  "version": "0.1.0",
+  "description": "A simple and performant virtual-host middleware for Koa ",
+  "author": {
+    "name" : "Denis Chernov",
+    "email" : "twkr@twkrsplace.ru",
+    "url" : "https://twkrsplace.ru"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "imcrazytwkr/koa-switch-vhost",
+  "keywords": [
+    "koa",
+    "vhost",
+    "middleware"
+  ],
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "koa-compose": ">=4.0"
+  },
+  "peerDependencies": {
+    "koa": ">=2.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "^7.10.1 || >= 8.1.4"
+  },
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testMatch": [ "**/test/*.js" ],
+    "testEnvironment": "node",
+    "verbose": true,
+    "bail": true
+  }
+}
