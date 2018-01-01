@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "A simple and performant virtual-host middleware for Koa ",
   "author": {
-    "name" : "Denis Chernov",
-    "email" : "twkr@twkrsplace.ru",
-    "url" : "https://twkrsplace.ru"
+    "name": "Denis Chernov",
+    "email": "twkr@twkrsplace.ru",
+    "url": "https://twkrsplace.ru"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -35,7 +35,9 @@
     "lib"
   ],
   "jest": {
-    "testMatch": [ "**/test/*.js" ],
+    "testMatch": [
+      "**/test/*.js"
+    ],
     "testEnvironment": "node",
     "verbose": true,
     "bail": true
